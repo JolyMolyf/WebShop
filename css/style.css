@@ -20,7 +20,7 @@ html, body{
   flex-direction: row;
   justify-content: center;
   align-items: center;
- 
+
 }
 
 .logoSvg{
@@ -46,7 +46,7 @@ path{
 
 .bg{
     position: absolute;
-    width: 100%; 
+    width: 100%;
     height: 53vh;
     background-size: cover;
     background-image: url(../imgs/bg8.jpg);
@@ -58,7 +58,7 @@ path{
 
 .overlay{
     position: absolute;
-    width: 100%; 
+    width: 100%;
     height: 100%;
     background-color: rgba(0,0,0, .6);
 }
@@ -82,7 +82,7 @@ path{
   flex-direction: row;
   position: absolute;
   left: 2%;
-  
+
   cursor: pointer;
 }
 .item-lang{
@@ -122,7 +122,7 @@ path{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-      color: rgb(254, 234, 195);    
+      color: rgb(254, 234, 195);
 }
 
 
@@ -151,7 +151,7 @@ img{
 .line{
     width: 100%;
     height: 2px;
-    background-color:  rgb(254, 234, 195);    
+    background-color:  rgb(254, 234, 195);
     margin-top: 2vh;
     margin-bottom: 2vh;
 }
@@ -252,7 +252,7 @@ img{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    
+
     margin-bottom: 5vh;
 }
 
@@ -270,7 +270,7 @@ img{
   align-items: center;
   font-size: 240%;
   text-transform: uppercase;
-  color: rgb(254, 234, 195);    
+  color: rgb(254, 234, 195);
 }
 
 
@@ -307,11 +307,16 @@ img{
 }
 
 .small-bag-wrapper img{
-    transform: scale(3);
+    transform: scale(2);
     justify-self: center;
     width: 50%;
+    transition: 0.3s ease-in-out;
     margin-left: auto;
     margin-right: auto;
+}
+
+.small-bag-wrapper img:hover{
+  transform: scale(2.2);
 }
 
 .origin-text-wrapper{
